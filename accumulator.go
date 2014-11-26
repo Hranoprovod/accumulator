@@ -1,4 +1,4 @@
-package main
+package accumulator
 
 const (
 	// Negative register
