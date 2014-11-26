@@ -1,4 +1,4 @@
-package acccumulator
+package accumulator
 
 import (
 	. "github.com/smartystreets/goconvey/convey"
