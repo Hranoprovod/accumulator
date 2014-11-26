@@ -1,0 +1,4 @@
+accumulator
+===========
+
+Value accumulator
