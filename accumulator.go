@@ -20,9 +20,9 @@ func NewAccumulator() *Accumulator {
 
 // Add adds name/value to the accumulator
 func (acc *Accumulator) Add(name string, val float32) {
-	sign := accPos
+	sign := Positive
 	if val < 0 {
-		sign = accNeg
+		sign = Negative
 	}
 	if _, exists := (*acc)[name]; exists {
 		(*acc)[name][sign] += val
